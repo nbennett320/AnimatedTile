@@ -1,0 +1,14 @@
+{
+  "name": "AnimatedTile",
+  "version": "1.0.0",
+  "main": "src/AnimatedTile.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "test": "parcel test/index.html"
+  }
+}
