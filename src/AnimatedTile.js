@@ -4,7 +4,6 @@ export default class AnimatedTile extends Component {
   render() {
     const { 
       image, 
-       
     }
     <div >
 
