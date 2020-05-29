@@ -1,12 +1,30 @@
 {
-  "name": "AnimatedTile",
+  "name": "animated-tile",
   "version": "1.0.0",
   "main": "src/AnimatedTile.js",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/helper-create-class-features-plugin": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "image-size": "^0.8.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "react-dom": "^16.13.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [[
+        "@babel/plugin-proposal-class-properties"
+      ]
+    ]
   },
   "scripts": {
     "test": "parcel test/index.html"
